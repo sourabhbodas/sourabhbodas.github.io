@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience | Sourabh Bodas</title>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card-bg: #1e293b;
+            --text: #f8fafc;
+            --muted: #94a3b8;
+            --accent: #38bdf8;
+            --border: #334155;
+        }
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem 4rem 1.5rem;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        h1 { font-size: 2.2rem; margin: 0 0 0.25rem 0; color: var(--text); }
+        .subtitle { font-size: 1.1rem; color: var(--accent); font-weight: 500; margin: 0 0 1rem 0; }
+        nav { display: flex; gap: 1.5rem; margin-top: 1rem; flex-wrap: wrap; }
+        nav a {
+            color: var(--muted);
+            text-decoration: none;
+            font-weight: 500;
+            padding-bottom: 0.25rem;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s;
+        }
+        nav a:hover, nav a.active {
+            color: var(--accent);
+            border-bottom-color: var(--accent);
+        }
+        .job {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.25rem 1.5rem;
+            margin-bottom: 1.25rem;
+        }
+        .job-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 0.5rem; }
+        .job-title { font-size: 1.1rem; font-weight: 600; color: var(--text); }
+        .job-company { color: var(--accent); font-weight: 500; }
+        .job-dates { color: var(--muted); font-size: 0.9rem; }
+        .job p { color: var(--muted); margin: 0.5rem 0 0 0; font-size: 0.95rem; }
+        .job ul { color: var(--muted); margin: 0.5rem 0 0 1.25rem; padding: 0; font-size: 0.95rem; }
+        .job ul li { margin-bottom: 0.3rem; }
+        .job-meta { color: var(--muted); font-size: 0.9rem; margin-top: 0.15rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sourabh Bodas</h1>
+        <div class="subtitle">Director of Engineering & Head of R&D at CSP Group</div>
+        <nav>
+            <a href="index.html">About Me</a>
+            <a href="experience.html" class="active">Professional Experience</a>
+            <a href="research.html">Research & Vision</a>
+            <a href="education.html">Education</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="job">
+            <div class="job-header">
+                <div><span class="job-title">Director of Engineering (Head of R&D)</span> — <span class="job-company">CSP Group</span></div>
+                <span class="job-dates">Nov 2025 – Present</span>
+            </div>
+            <div class="job-meta">Full-time · Greater Munich Metropolitan Area</div>
+            <p>Driving the evolution of manufacturing QMS services by migrating legacy desktop and on-premise applications into integrated cloud solutions. Leading a department-wide transition to AI-driven workflows and technology-centric teams.</p>
+            <ul>
+                <li>Spearheaded AI-driven workflows that improved R&D efficiency and efficacy by ~70%.</li>
+                <li>Steering architectural modernization of enterprise legacy software into unified cloud ecosystems.</li>
+                <li>Replaced Scrum with a customized Shape Up approach, granting engineers autonomy to innovate.</li>
+                <li>Realigned the Product & Technology department by restructuring teams by technology stacks rather than product silos.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div><span class="job-title">Founder</span> — <span class="job-company">Science as I see it</span></div>
+                <span class="job-dates">Sep 2011 – Present</span>
+            </div>
+            <p>A not-for-profit forum started to promote science by narrowing the gap between theoretical school education and real-world advances in Science and Technology. Dedicated to creating a platform for interaction between professionals and school-going students.</p>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div><span class="job-title">Chief Technology Officer</span> — <span class="job-company">Nexustec GmbH</span></div>
+                <span class="job-dates">Dec 2016 – Oct 2025</span>
+            </div>
+            <div class="job-meta">Full-time · Munich Area, Germany</div>
+            <p>Led end-to-end development, product strategy, and marketing for Nexustec's core offerings, serving as chief innovator for the flagship TRiMiTi product lineup. Engineered Industry 4.0 solutions utilizing Machine Vision to enhance human worker efficiency.</p>
+            <ul>
+                <li>Directed system architecture and software development; managed external contractors for embedded systems and custom product design.</li>
+                <li>Conceptualized and deployed advanced Machine Vision solutions tailored to modern manufacturing challenges.</li>
+                <li>Spearheaded the product roadmap while directly driving business development, marketing strategy, and technical sales.</li>
+                <li>Partnered with the CEO to align engineering capabilities with overarching business growth.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div><span class="job-title">Software Engineer & Research Scientist</span> — <span class="job-company">Nexustec GmbH</span></div>
+                <span class="job-dates">Aug 2015 – Nov 2016</span>
+            </div>
+            <div class="job-meta">Greater Munich Metropolitan Area</div>
+            <p>Working on next generation Embedded Machine Vision Systems for industrial applications. Also served as Consulting Software Developer at White Lion Technologies AG, Munich.</p>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div><span class="job-title">Consulting Software Engineer</span> — <span class="job-company">White Lion Technologies AG</span></div>
+                <span class="job-dates">Jan 2016 – May 2018</span>
+            </div>
+            <div class="job-meta">Munich Area, Germany</div>
+            <p>Directly led software development and engineering support for medical-grade software solutions from concept to deployment, contracted via Nexustec GmbH.</p>
+            <ul>
+                <li>Built Kapex BWG from scratch — a compliance-driven software solution for the constancy testing of medical displays.</li>
+                <li>Maintained and enhanced the Focus3D software suite for medical imaging and digital X-ray visualization.</li>
+                <li>Managed end-to-end development lifecycle under strict medical industry standards.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div><span class="job-title">Software Test Engineer</span> — <span class="job-company">think-cell Software</span></div>
+                <span class="job-dates">Jan 2015 – Jul 2015</span>
+            </div>
+            <div class="job-meta">Berlin Area, Germany</div>
+            <p>Engineered big data analytics tools to streamline error reporting and optimization.</p>
+            <ul>
+                <li>Overhauled the statistical analytics system, drastically reducing debugging and fix deployment time.</li>
+                <li>Developed an internal big data tool capable of processing over 1 million daily automated bug reports.</li>
+                <li>Programmed algorithms to analyze minidump contents and automatically categorize complex crashes.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div><span class="job-title">Freelance Software Developer</span> — <span class="job-company">Freelancer</span></div>
+                <span class="job-dates">Mar 2014 – Dec 2014</span>
+            </div>
+            <div class="job-meta">Berlin Area, Germany</div>
+            <p>Worked on various projects related to computer vision and machine learning to gain industry experience and ease the transition from university.</p>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div><span class="job-title">Research Associate</span> — <span class="job-company">Humboldt University of Berlin</span></div>
+                <span class="job-dates">Aug 2012 – Feb 2014</span>
+            </div>
+            <div class="job-meta">Berlin Metropolitan Area</div>
+            <p>Research Associate in the Computer Vision group at Institut für Informatik. Continued PhD research in 3D data compression with Prof. Ralf Reulke and Prof. Peter Eisert in the Computer Vision Department.</p>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div><span class="job-title">Research Student</span> — <span class="job-company">Fraunhofer IGD</span></div>
+                <span class="job-dates">Jul 2011 – Sep 2011</span>
+            </div>
+            <div class="job-meta">Darmstadt, Germany</div>
+            <p>Worked on augmented reality application devices and calibration of various parameters.</p>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div><span class="job-title">Intern</span> — <span class="job-company">Messung Group of Companies</span></div>
+                <span class="job-dates">Dec 2009 – Jan 2010</span>
+            </div>
+            <div class="job-meta">Pune Area, India</div>
+            <p>Intern in R&D on an Optical component evaluation project.</p>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div><span class="job-title">Research Student</span> — <span class="job-company">University of Bremen</span></div>
+                <span class="job-dates">Jun 2009 – Nov 2009</span>
+            </div>
+            <div class="job-meta">Bremen, Germany</div>
+            <p>Bachelor's thesis and internship.</p>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div><span class="job-title">Intern</span> — <span class="job-company">M. Tech Innovations</span></div>
+                <span class="job-dates">May 2008 – Jul 2008</span>
+            </div>
+            <div class="job-meta">Pune/Pimpri-Chinchwad Area, India</div>
+            <p>Designed a system using Optical-Laser sensors to measure the dimensions of plastic cards, providing a solution for their long-term storage.</p>
+        </div>
+    </main>
+</body>
+</html>

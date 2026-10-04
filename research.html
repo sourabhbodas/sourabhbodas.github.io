@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research | Sourabh Bodas</title>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card-bg: #1e293b;
+            --text: #f8fafc;
+            --muted: #94a3b8;
+            --accent: #38bdf8;
+            --border: #334155;
+        }
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem 4rem 1.5rem;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        h1 { font-size: 2.2rem; margin: 0 0 0.25rem 0; color: var(--text); }
+        .subtitle { font-size: 1.1rem; color: var(--accent); font-weight: 500; margin: 0 0 1rem 0; }
+        nav { display: flex; gap: 1.5rem; margin-top: 1rem; flex-wrap: wrap; }
+        nav a {
+            color: var(--muted);
+            text-decoration: none;
+            font-weight: 500;
+            padding-bottom: 0.25rem;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s;
+        }
+        nav a:hover, nav a.active {
+            color: var(--accent);
+            border-bottom-color: var(--accent);
+        }
+        .topic {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.25rem 1.5rem;
+            margin-bottom: 1.25rem;
+        }
+        .topic h3 { color: var(--accent); font-size: 1.1rem; margin: 0 0 0.5rem 0; }
+        .topic p { color: var(--muted); margin: 0; font-size: 0.95rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sourabh Bodas</h1>
+        <div class="subtitle">Director of Engineering & Head of R&D at CSP Group</div>
+        <nav>
+            <a href="index.html">About Me</a>
+            <a href="experience.html">Professional Experience</a>
+            <a href="research.html" class="active">Research & Vision</a>
+            <a href="education.html">Education</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="topic">
+            <h3>Physical AI & Vision-Language-Action Models</h3>
+            <p>Exploring the convergence of computer vision, physical AI, and edge robotics to enable autonomous perception and real-time decision-making in industrial environments.</p>
+        </div>
+
+        <div class="topic">
+            <h3>Software Maintainability & AI Code Complexity</h3>
+            <p>Investigating quantitative methods to measure, control, and prevent software bloat in systems generated or assisted by AI models.</p>
+        </div>
+
+        <div class="topic">
+            <h3>Subtractive Engineering & Ellora Protocol</h3>
+            <p>Formulating architectural frameworks that emphasize reducing unnecessary dependencies, optimizing memory utilization, and maximizing component lifetime.</p>
+        </div>
+    </main>
+</body>
+</html>
