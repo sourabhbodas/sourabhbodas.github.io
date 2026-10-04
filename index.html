@@ -50,12 +50,20 @@
         .tag { background: rgba(56, 189, 248, 0.1); color: var(--accent); padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.85rem; }
         .links a { color: var(--accent); text-decoration: none; margin-right: 1.25rem; font-weight: 500; }
         .links a:hover { text-decoration: underline; }
+        .header-inner { display: flex; align-items: center; gap: 1.5rem; }
+        .profile-photo { width: 90px; height: 90px; border-radius: 50%; object-fit: cover; border: 2px solid var(--border); flex-shrink: 0; }
+        .header-text { flex: 1; }
     </style>
 </head>
 <body>
     <header>
-        <h1>Sourabh Bodas</h1>
-        <div class="subtitle">Director of Engineering & Head of R&D at CSP Group</div>
+        <div class="header-inner">
+            <img src="sourabh.jpeg" alt="Sourabh Bodas" class="profile-photo">
+            <div class="header-text">
+                <h1>Sourabh Bodas</h1>
+                <div class="subtitle">Director of Engineering & Head of R&D at CSP Group</div>
+            </div>
+        </div>
         <nav>
             <a href="index.html" class="active">About Me</a>
             <a href="experience.html">Professional Experience</a>
